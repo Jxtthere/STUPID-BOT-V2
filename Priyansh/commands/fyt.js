@@ -20,7 +20,7 @@ module.exports.run = async function({ api, args, Users, event}) {
     var arraytag = [];
         arraytag.push({id: mention});
     var a = function (a) { api.sendMessage(a, event.threadID); }
-a("ਤੇਰੀ ਨਰੇਗਾ ਚ ਲੱਗੀ ਮਾ ਨੂੰ ਲੰਨ ਦਵਾ ਨੱਸਦਾ ਕਿੱਥੇ ਆ 😜❤️🤚❤️");
+setTimeout(() => {a({body: "ਤੇਰੀ ਨਰੇਗਾ ਚ ਲੱਗੀ ਮਾ ਨੂੰ ਲੰਨ ਦਵਾ ਨੱਸਦਾ ਕਿੱਥੇ ਆ 😜❤️🤚❤️");
 setTimeout(() => {a({body: "ਤੇਰੀ ਰਾਹ ਜਾਂਦੀ ਭੈਣ ਦੇ ਦੁੱਧੂ ਨੱਪ ਦਵਾ ਦੱਸ ਜਾਨ 😜❤️🤚" })}, 3000);
 setTimeout(() => {a({body: "ਤੇਰੀ ਫੈਕਟਰੀ ਚ ਕੰਮ ਕਰਨ ਵਾਲੀ ਮਾ ਮਨਾ ਲਵਾ ਜਲਦੀ ਦੱਸ ਜਾਨ 😜❤️🤚"})}, 6000);
 setTimeout(() => {a({body: "ਤੇਰੀ ਮਾ ਦੀ ਗਿੱਲੀ ਜਹੀ ਭੋਸੜੀ ਚ ਹੱਥ ਪਾ ਦਵਾ 😜❤️🤚" })}, 9000);
